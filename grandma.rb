@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(phrase)
+def speak_to_grandma("phrase")
       if "#{phrase}" == "#{phrase.downcase}"
    puts "UH?! SPEAK UP, SONNY!"
    
