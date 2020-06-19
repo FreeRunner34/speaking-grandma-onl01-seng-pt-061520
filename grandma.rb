@@ -14,10 +14,10 @@
 
 
 def speak_to_grandma(phrase)
-      if phrase == "#{phrase.downcase}"
+      if phrase == phrase.downcase
    puts "UH?! SPEAK UP, SONNY!"
   end
-    if phrase == #{phrase.upcase}
+    if phrase == phrase.upcase
     puts "NO, NOT SINCE 1938!"
   end
     if phrase == "I LOVE YOU GRANDMA!"
